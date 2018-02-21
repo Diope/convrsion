@@ -9,7 +9,8 @@
   },
   "author": "Dion Pettaway",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "electron": "^1.8.2"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
