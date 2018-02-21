@@ -26,5 +26,5 @@ ipcMain.on('videos:added', (event, videos) => {
       })
     })
   })
-  Promise.all(promises).then((metadata) => {console.log(metadata);})
+  Promise.all(promises).then((metadata) => {console.log(metadata.format.duration);})
 });
