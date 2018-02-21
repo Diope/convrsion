@@ -31,7 +31,7 @@ class VideoSelectScreen extends Component {
     } else if (isDragReject) {
       return <h4 className="drop-message">Uh oh, I don't know how to deal with that type of file!</h4>;
     } else {
-      return <h4 className="drop-message">Drag and drop some files on me, or click to select.</h4>
+      return <h4 className="drop-message">~Drag and drop some files on me, or click to select them~</h4>
     }
   }
 
