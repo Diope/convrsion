@@ -17,7 +17,7 @@ export const addVideos = videos => dispatch => {
 export const convertVideos = videos => dispatch => {
   ipc.send('conversion:start', videos);
 
-  ipc.on('conersion:end', (event, {video, outputPath}) => {
+  ipc.on('conversion:end', (event, {video, outputPath}) => {
     dispatch({type: VIDEO_COMPLETE, payload: {...video, outputPath}})
   })
 };
