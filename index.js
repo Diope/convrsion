@@ -8,6 +8,7 @@ let mainWindow; // For garbage collection purposes
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
+    titleBarStyle: 'hidden',
     height: 600,
     width: 800,
     webPreferences: {backgroundThrottling: false}
