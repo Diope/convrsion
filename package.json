@@ -1,5 +1,6 @@
 {
   "name": "convrsion",
+  "productName": "Convrrt",
   "version": "1.0.0",
   "description": "Electron video conversion app",
   "main": "main.js",
